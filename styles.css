@@ -1,8 +1,36 @@
 body {
     color:rgb(255, 255, 255);
-    background:black;
+    background:rgb(0, 0, 0);
 }
 
 header {
     border: solid 2px rgba(4, 242, 254, 0.728);
+    padding: 20px;
+    font-size:32px;
+    color:aliceblue;
 }
+
+
+section{
+    background:rgb(0, 0, 0) ;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada-texto{
+    margin-right: 5%;
+
+}
+
+img {
+    height: 200px;
+  }
+
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
